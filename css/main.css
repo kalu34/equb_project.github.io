@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: poppins;
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+/* Header Start Here */
+.header {
+    height: 100vh;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url(../image/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    padding: 0.6rem 1.8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.logo {
+    width: 6rem;
+}
+.nav_right {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 2.5rem;
+    align-items: center;
+}
+.discover {
+    color: #fff;
+    margin-right: 1rem;
+}
+.getapp {
+    color: #fff;
+    margin-right: 0.5rem;
+}
+.signup {
+    color: #fff;
+    padding: 0.4rem 1rem;
+    background-color: rgb(95, 198, 108);
+    border-radius: 10000px;
+    font-weight: 400;
+}
+.banner__search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    width: 37rem;
+    height: 10.5rem;
+    margin-bottom: 1rem;
+}
+.search-box {
+    background-color: rgb(253, 253, 253);
+    width: 40rem;
+    height: 3rem;
+    border-radius: 8px;
+    display: flex;
+    padding: 0.5rem 0.4rem 0.5rem 1rem;
+}
+.search__location {
+    flex: 0 0 27%;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+.search__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vertcal_line {
+    height: 50%;
+    width: 1px;
+    background-color: hsl(0, 0%, 51%);
+    margin-right: 0.5rem;
+    margin-left: -1rem;
+}
+
+.search__Icon {
+}
+.current-location {
+    color: hsl(0, 0%, 51%);
+    margin: 0 1.8rem 0 0.7em;
+}
+.input {
+    width: 240px;
+    margin-left: 1.5rem;
+    height: 85%;
+    margin-right: 2rem;
+    border: none;
+    font-family: poppins;
+}
+.input::placeholder {
+    color: rgb(105, 105, 105);
+}
+.input:focus {
+    outline: none;
+}
+.search__btn {
+    background-color: rgb(95, 198, 108);
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    padding: 0.6rem 1.8rem;
+    font-family: inherit;
+    margin-left: 1.5rem;
+}
+.icon-svg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.svg_green {
+    fill: rgb(95, 198, 108);
+}
+.svg_long {
+    width: 1.2rem;
+    height: 1.2rem;
+    fill: darkgray;
+}
+.w-3 {
+    width: 1.2rem;
+}
+.w-1 {
+    width: 0.8rem;
+}
+.w-4 {
+    width: 0.8rem;
+}
+/* Header Ends Here */
+/* section Why Choose us  */
+.why_choose_us {
+    padding: 4.5rem 5rem 0 5rem;
+}
+.why__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.why__text {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: rgb(36, 36, 36);
+    text-transform: capitalize;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 2.5rem;
+}
+.why__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.svg {
+    width: 13rem;
+    margin-bottom: 2.5rem;
+}
+.svg-big {
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+.headeing__1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+}
+.why__paragraph {
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    color: rgb(136, 136, 136);
+}
+/* How to start here */
+.how_to_get_food {
+    display: flex;
+}
+.left_side {
+    flex: 0 0 45%;
+    padding: 1rem 3rem;
+}
+.how_to_title {
+    font-size: 2.4rem;
+    color: rgb(36, 36, 36);
+    font-weight: 450;
+    line-height: 2.8rem;
+    color: rgb(41,41,41);
+    margin-bottom: 2rem;
+}
+.how_to_paragraph {
+    color: rgb(136,136,136);
+    font-size: 1rem;
+    margin-bottom: 6rem;
+}
+.how_to_small-box {
+    width: 24rem;
+    background-image: linear-gradient(to bottom, rgb(191, 248, 199), rgba(255, 255, 255, 0.904));
+    display: flex;
+    align-items: center;
+    padding: .5rem .7rem;
+    border-radius: .4rem;
+    box-shadow: 0  .3rem  .5rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 3rem;
+    transition: all .2s ease-in-out;
+}
+.how_to_small-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0  1rem  1rem rgba(0, 0, 0, 0.1);
+
+}
+.w-11 {
+    width: 3rem;
+    margin-right: 1rem;
+}
+.small-box-text {
+
+}
+.small-box_title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(41,41,41);
+}
+.small-box_paragraph {
+    color: rgb(136, 136, 136);
+}
+.right_side-img {
+    width: 42rem;
+    margin-left: .7rem;
+    margin-top: 12rem;
+}
+.small_box_margin-left{
+    margin-left: 6rem;
+}
+
+.w-full{
+    margin-top: -6.4rem;
+    z-index: 6;
+    position: absolute;
+}
+.bottom-1{
+    transform: rotateX(180deg);
+    margin-bottom: .7rem;
+}
+/* section Why Choose us  */
+/* loyality program start here */
+.loyality_program{
+    margin-top: 1rem;
+    background-image: url(../image/loyality.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    margin-left: 1rem;
+}
+.loyality__how_It_work{
+    width: 6.7rem;
+    height: 6.7rem;
+    background-color: rgb(41,41,41);
+    border-radius: 50%;
+    position: absolute;
+    bottom: .85rem;
+    right:2.8rem;
+    box-shadow: 0  1rem 4rem rgba(199, 196, 0, 0.678);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loyality__how_It_work-text{
+    text-align: center;
+    font-size: 1rem;
+}
+/* loyality program start here */
+/* we_are_working */
+.we_are_working{
+    position: relative;
+    background-image: url();
+}
+.working_with-background_image{
+    position: relative;
+}
+.working_with-background_image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../image/smoke_cropped.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    background-blend-mode: luminosity;
+    opacity: .2;
+}
+.working_with{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.w-5{
+    width: 8rem;
+    margin: 5rem 0 2rem 0;
+}
+.working_paragraph{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgb(41,41,41);
+}
+.working_icon{
+    position: relative;
+}
+.w-16{
+    width: 10rem;
+    position: absolute;
+    z-index: 10;
+}
+/* Get App start here */
+
+.getApp{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    margin: 0 12rem;
+    align-items: center;
+
+}
+.get_app-section{
+    background-color: red;
+
+}
+.getapp-svg{
+    width: 5rem;
+    margin: 1rem 1.5rem;
+}
+.getapp_title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: rgb(41,41,41);
+}
+.getapp_paragraph{
+    color: rgb(136, 136, 136);
+    font-size: 1rem;
+}
+.download_app{
+    display: flex;
+}
+.playsotre{
+}
+.app_image{
+ width: 34rem;
+ 
+}
+/* Get App start here */

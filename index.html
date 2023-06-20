@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row row-cols-2 gx-5">
+            <div class="col py-4 shadow my-3 left-cont">
+                <div class="my-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name Please">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name Please">
+                    <label for="amount" class="form-label">Money Amount</label>
+                    <input type="number" class="form-control" id="amount" placeholder="Money Amount In Birr">
+                  </div>
+                  <div class="d-flex">
+                    <button class="btn btn-primary  w-50 me-2" id="btn_add">Add</button>
+                    <button class="btn btn-danger  w-50 ms-2" id="btn_reset">Reset</button>
+                  </div>
+                  <button class="btn btn-warning w-100 my-2 d-none btn-generate">Equb Aweta</button>
+            </div>
+            <div class="col  my-5">
+                <table class="table shadow">
+                    <thead  >
+                      <tr class="d-none heading">
+                        <th scope="col">#</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Amount </th>
+                      </tr>
+                    </thead>
+                    <tbody class="append-div">
+                    </tbody>
+                  </table>
+                  <div class="equb-box w-100 bg-warning p-2 text-center text-uppercase d-none">
+                    
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
